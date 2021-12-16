@@ -1,0 +1,106 @@
+@font-face {
+
+    font-family: Mifuente;
+    src: url(../Fonts/Merriweather-Light.ttf);
+ 
+ 
+ }
+
+ *{
+
+font-family: Mifuente;
+
+
+ }
+
+
+body {
+    background-image: url(../media/museo.jpg);
+    background-size: 100%;
+
+}
+
+h1{
+
+text-align: center;
+color: white;
+margin-top: 70px;
+letter-spacing: 1px;
+font-weight: 900;
+font-size: 40px;
+
+}
+
+.flex-container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    
+    align-items: stretch;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+    width: 300px;
+    margin: 5px;
+    background-color: rgba(54, 0, 3, 0.582);
+}
+
+.card:hover{
+
+    background-color: rgba(141, 13, 20, 0.678);
+
+}
+
+.card-img {
+    width: 100%;
+    
+}
+
+.card-title {
+    
+    text-align: center;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+#pic-container{
+
+margin-top: 5%;
+margin-left: 45px;
+
+}
+
+#btn{
+
+margin-top: 70px;
+font-family: Mifuente;
+font-weight: 600;
+font-size: 30px;
+background-color: rgba(85, 6, 10, 0.514);
+color: white;
+border-radius: 9px;
+padding: 7px;
+padding-left: 15px;
+padding-right: 15px;
+letter-spacing: 2px;
+cursor: pointer;
+border-color: rgba(0, 0, 0, 0.418);
+border-width: 2px;
+border-style: solid;
+}
+
+#btn:hover{
+
+background-color: rgba(156, 11, 11, 0.418);
+color: rgb(255, 255, 255);
+
+
+}
+
